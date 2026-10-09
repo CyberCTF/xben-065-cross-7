@@ -16,7 +16,7 @@ services:
       lab:
         ipv4_address: 10.61.108.10
     ports:
-    - ${ISOLOOM_PUBLISH_ADDRESS:-127.0.0.1}:${ISOLOOM_PUBLISH_FIXED:+5000}:5000
+    - ${ISOLOOM_PUBLISH_ADDRESS:-127.0.0.1}:${ISOLOOM_PUBLISH_FIXED:+5050}:5000
     healthcheck:
       test:
       - CMD

@@ -124,9 +124,9 @@ resource "aws_security_group" "env" {
     cidr_blocks = [var.allowed_cidr]
   }
   ingress {
-    description = "published 5000"
-    from_port   = 5000
-    to_port     = 5000
+    description = "published 5050"
+    from_port   = 5050
+    to_port     = 5050
     protocol    = "tcp"
     cidr_blocks = [var.allowed_cidr]
   }

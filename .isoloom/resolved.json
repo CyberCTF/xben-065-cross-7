@@ -37,7 +37,7 @@
           "port": 5000,
           "name": "web",
           "http": true,
-          "publish": 5000
+          "publish": 5050
         }
       ],
       "depends_on": [],
@@ -70,7 +70,7 @@
     {
       "machine": "web",
       "port": 5000,
-      "host_port": 5000
+      "host_port": 5050
     }
   ],
   "targets": {
@@ -140,5 +140,5 @@
       }
     ]
   },
-  "message": "Cross 7 answers at http://localhost:5000/.\nRun an XSS that shows the string 'XSS' (capital), for example alert('XSS'), to get the flag.\n"
+  "message": "Cross 7 answers at http://localhost:5050/.\nRun an XSS that shows the string 'XSS' (capital), for example alert('XSS'), to get the flag.\n"
 }

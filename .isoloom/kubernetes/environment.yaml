@@ -90,8 +90,8 @@ spec:
   selector:
     isoloom.com/machine: web
   ports:
-  - name: p5000
-    port: 5000
+  - name: p5050
+    port: 5050
     targetPort: 5000
 ---
 apiVersion: networking.k8s.io/v1
